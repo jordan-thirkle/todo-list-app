@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# ToDoList React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is my first-ever React app aimed at learning React fundamentals while building a functional ToDoList application. The goals of this app are to gain hands-on experience with React components, state management, user interactions, and integration with third-party authentication (Google Sign-In).
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To view and interact with the app, visit the GitHub Pages deployment: [View ToDoList App](https://jordan-thirkle.github.io/todo-list-app/)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Task Management:** Implement basic task management, allowing users to add, mark as completed, and delete tasks. This will introduce me to React's component structure, state management, and event handling.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Google Sign-In:** Integrate Google Sign-In to provide users with the ability to save their tasks across sessions. This feature will help me understand third-party authentication integration and data persistence.
 
-### `npm test`
+3. **Enhanced Styling:** Improve the visual appeal of the app through CSS styling. This will provide experience in styling React components and enhancing the user interface.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Task Completion Tracking:** Implement a feature that allows users to track completed tasks separately. This will deepen my understanding of conditional rendering and dynamic content in React.
 
-### `npm run build`
+5. **Task Edit:** Add the ability to edit task descriptions after they are added. This feature will expand my knowledge of user interactions and controlled components in React.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. **Responsive Design:** Ensure the app is responsive and looks good on various screen sizes and devices. This will involve using media queries and responsive design principles.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## What I'll Learn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **React Fundamentals:** Gain a solid understanding of React components, JSX, state, props, and the component lifecycle.
 
-### `npm run eject`
+2. **State Management:** Learn how to manage and update component state to reflect changes in the user interface.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Event Handling:** Understand how to handle user interactions and trigger actions within React components.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Third-Party Authentication:** Learn how to integrate third-party authentication services (Google Sign-In) into a React app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **CSS Styling:** Practice styling React components using CSS, and enhance the app's visual appeal.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. **Conditional Rendering:** Discover how to conditionally render components and content based on user actions or data.
 
-## Learn More
+7. **Responsive Design:** Learn how to make the app responsive and ensure a consistent user experience across devices.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Built With
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [Firebase Authentication](https://firebase.google.com/products/auth) - Used for Google Sign-In and user authentication.
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app is deployed using GitHub Pages. To deploy your own version, follow the steps in the [deployment section](https://facebook.github.io/create-react-app/docs/deployment) of the Create React App documentation.
 
-### Analyzing the Bundle Size
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This app was built as a learning project based on the guidance provided by OpenAI's ChatGPT.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
