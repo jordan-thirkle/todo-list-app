@@ -47,7 +47,7 @@ The app is deployed using GitHub Pages. To deploy your own version, follow the s
 
 ## Acknowledgements
 
-This app was built as a learning project based on the guidance provided by OpenAI's ChatGPT.
+This app was built as a learning project.
 
 ## License
 
